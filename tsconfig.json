@@ -1,6 +1,13 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx", // or "preserve"
-    "types": ["vite/client", "react", "react-dom"]
+    "jsx": "react-jsx",
+    "types": ["vite/client", "react", "react-dom"],
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
   }
 }
